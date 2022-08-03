@@ -20,13 +20,16 @@ These tokens are released based on the value of data consumers use, per GIANT to
 ### Auto-stake and Unstake
 
 These tokens are automatically staked with the provider pool as they are earned. 
-All 100% of earned rewards for the providers are staked in the pool unless requested for unstake. 
-For consumers we are maintaining 70-30 ratio of auto-stake and return respectively.
+All 100% of earned rewards for the providers aka supply rewards are staked in the pool unless requested for unstake. 
+For consumers we maintain `amount_stake = 70%` and `amount_transfer = 30%` of demand rewards as auto-stake and wallet transfer respectively.
+At the time of unstaking the user can request for unstake and it will stop generating yield for those tokens but the credit of tokens will only be active once the DCT is expired.
 
 ### Step-by-step overview
+#### Unstake GIANT
 
 
 1. **TVO**
+TVO is the Total Value Outstanding. This is equal to the sum total of all the active DCTs
    
 
 2. **SPP**
