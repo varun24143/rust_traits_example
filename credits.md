@@ -6,7 +6,9 @@
 
 ## Introduction
 
-Any GIANT token holder may stake their GIANT token with a given provider and receive sGIANT tokens in return. sGIANT tokens earn a pro-rata share of stakeholder yield from future DCT sales, and also may be slashed for customer refunds of future DCT sales. This behaves like a decentralized mechanism of maintaining quality providers and offers based on the stake (weightage) in the staking pool.
+Credits - 
+Any consumer who wants to purchase an offer, will have to mint the dct corresponding to that offer. The minting of a dct in mainnet v1.0 is possible using either USDC or Credit card payment. The payment confirmation by the consumer for the given DCT is done by getting their TransactionHash/ TransactionID validated by the protocol. On successful validation, the DCT is minted and the consumer can go ahead and activate it.
+Once the dct is minted, protocol mints an equivalent amount of data credits (USD to credits (1:1)). The minted credits are escrowed into protocol service fee (5%), staking yield rewards (5%) and provider collateral (90%) accounts respectively. 
 For Ex, if the provider you believe is matching the standards of the ecosystem, is generating quality offers, and generating higher DCT sales, you will be rewarded by showing faith in the provider based on the stake you have.
 
 Only provider pool tokens, i.e. sGIANT, may be staked with nodes. In this way provider pools and node pools share liquidity, share slashing risk, and mutually strengthen the protocol.
