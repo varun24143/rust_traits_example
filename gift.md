@@ -1,7 +1,7 @@
 
 | Title        |  Contributors  |
 | :-------------|:--------------|
-| Credits     | <Team: @giantconnect.com>          |
+| Gift     | <Team: @giantconnect.com>          |
 
 
 ## Introduction
